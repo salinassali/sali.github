@@ -1,0 +1,11 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #211295;
+    transition: all 2s ease;
+    /*transition-delay:2s;*/
+}
+
+*/ Velocidad de Curva
+ease - inicio lento, despues rapido y termina lento
+linear - misma velocidad de inicio a fin

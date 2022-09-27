@@ -1,0 +1,41 @@
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 26</title>
+<head>
+<script LANGUAJE="Javascript">
+var time =0;
+var scrollGo= false;
+var delay=100;
+var space=100;
+
+function scroll_start()
+{
+var i=0;
+msg="este es el mensaje mostrado en la barra de estado";
+for (i=0; i<space; i++)
+msg=" "+msg;
+scrollGo=true;
+timerid=window.setTimeout("scrollmsg(0)",del ay);
+
+}
+function scrollmsg(pos)
+{
+var out ="";
+scrollGo=false;
+if (pos < msg.length)
+self.status = msg.substring(pos,msg.length);
+else
+pos=-1;
+++pos;
+ scrollGo= true;
+ timerid=window.setTimeout("scrollmsg("+post") ",delay);
+}
+
+</script>
+</head>
+<body onload="scroll_star();">
+    
+</body>
+</html>

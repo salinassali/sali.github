@@ -1,0 +1,31 @@
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 23</title>
+<head>
+    <script languaje="Javascript">
+    //Ejemplo que muestra una galeria de imagenes
+    function ver_imagen()
+    {
+    if (!document.images)
+    return
+    document.images.img.src=
+    document.imagenes.imagen.options[document.imagenes.selectedIn dex].value
+    }
+    </script>
+
+<body>
+<form name="imagenes">
+<select name="imagen" size="1" onchange="ver_imagen()">
+<option>Elige imagen</option>
+<option value="photo_4976697074414365632_y.jpg">1</option>
+<option value="photo_4976697074414365631_y.jpgj">2</option>
+<option value="photo_4976697074414365630_y.jpg">3</option>
+</select>
+</form>
+<img src="photo_4976697074414365632_y.jpg" img src="photo_4976697074414365631_y.jpg" img src="photo_4976697074414365630_y.jpg" width=500 height= 436 borde=3>
+</body>
+</head>
+</html>

@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 25</title>
+</head>
+<body>
+    <script languaje="Javascript">
+    function mailpage()
+    {
+    mail_str ="mailto:nombre@dominio.com?subject=Ejemplo:" + document.title;
+    mail_str += "&body=Te recomiendo que visites esta pagina (http://www.cnice.mec.es/) -- " + document.title;
+    mail_str += ". Enlace: " + location.href;
+    location.href= mail_str;
+    }
+    </script>
+    <a href="javascript:mailpage()">Mandar correo!</a>
+</body>
+</html>
